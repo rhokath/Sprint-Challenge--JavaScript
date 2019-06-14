@@ -37,7 +37,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 //Because when you define a function within another function you create a closure which stores the reference to the outer functions variables. That inner function can access variables in its local scope, the global scope and the lexical scope.
-
+//If a variable isnt' defined inside its local scope that function will look outside of it to find the variable being referenced in an outer scope. 
 // Explanation: 
 
 
